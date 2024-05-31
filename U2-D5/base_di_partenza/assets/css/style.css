@@ -105,11 +105,18 @@ article{
 .imgArticle{
     display: flex;
     align-items: center;
+    font-size: 0.8em;
     
 }
+
+
 .titoloArticolo{
     margin-block: 7px;
     font-size: 0.9em;
+}
+.titoloArticolo h3{
+    font-size: 1em;
+    font-weight: 600;
 }
 .sottotitoloArticolo{
     display: flex;
@@ -120,8 +127,9 @@ article{
 
 }
 .numArt{
-    font-size: 1.7em;
+    font-size: 1.5em;
     color: rgb(228, 228, 228);
+    font-weight: 700;
 }
 .littleRound{
     border-radius: 50%;

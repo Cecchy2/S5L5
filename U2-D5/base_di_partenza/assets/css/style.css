@@ -157,6 +157,7 @@ main{
     width: 720px;
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 60px;
 }
 .littlePhoto{
     border-radius: 50%;

@@ -147,10 +147,10 @@ article{
 .sottotitoloArticolo{
     display: flex;
     font-size: 0.9em;
-    color: grey;
-    justify-content: space-around;
-    margin-left: -65px;
-
+    color: grey;   
+}
+.sottotitoloArticolo p{
+    margin-right: 15px;
 }
 .numArt{
     font-size: 1.5em;

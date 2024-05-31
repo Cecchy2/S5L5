@@ -25,13 +25,18 @@ header{
 }
 #navFix{
     position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 1000;
-  background-color: rgb(255, 192, 23);
-  border-bottom: solid 1px grey;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(255, 192, 23);
+    border-bottom: solid 1px grey;
+    transition: opacity 1.3s ;
 }
+.hidden{
+    opacity: 0;
+}
+
 
 #logo{
     margin-top: 15px;

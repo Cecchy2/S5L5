@@ -36,7 +36,8 @@
               <li class="selected">Get Started</li>
             </ul>
           </section>
-        </div></div>
+        </div>
+    </div>
       </div>
       <div class="sectionsContainer">
       <section id="titolo">
@@ -5583,5 +5584,25 @@
         </aside>
       </div>
     </main>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          const navbar = document.getElementById("navFix");
+          const lastScrollTop = 0;
+      
+          window.addEventListener("scroll", function(event) {
+            const scrollTop = window.pageYOffset 
+      
+            if (scrollTop > lastScrollTop) {
+              // Scroll in basso
+              navbar.classList.add("hidden");
+            } else {
+              // Scroll in alto
+              navbar.classList.remove("hidden");
+            }
+      
+            lastScrollTop = scrollTop;
+          });
+        });
+      </script>
   </body>
 </html>

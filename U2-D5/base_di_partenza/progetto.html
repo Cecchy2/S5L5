@@ -5582,14 +5582,15 @@
       </div>
     </main>
     <script>
+
         document.addEventListener("DOMContentLoaded", function() {
           const navbar = document.getElementById("navFix");
-          const lastScrollTop = 0;
+          const ultimoScrollTop = 0;
       
           window.addEventListener("scroll", function(event) { console.log(event)
-            const scrollTop = window.pageYOffset 
+            const scrollIniziale = window.pageYOffset 
       
-            if (scrollTop > lastScrollTop) {
+            if (scrollIniziale > ultimoScrollTop) {
               // Scroll in basso
               navbar.classList.add("hidden");
             } else {

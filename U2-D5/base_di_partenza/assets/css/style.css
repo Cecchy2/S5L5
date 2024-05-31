@@ -7,8 +7,9 @@ body{
     font-family: "Roboto", sans-serif;;
 }
 header{
-    height: 600px;
+    height: 500px;
     background-color: rgb(255, 192, 23);
+    border-bottom: solid 1px grey;
     
     
 }
@@ -48,3 +49,30 @@ nav{
     margin-left: -14px;
     border-radius: 30px;
 }
+#titolo{
+    max-width: 1012px;
+    margin-inline: auto;
+    
+}
+h1{
+    font-family: "Spectral", serif;
+  font-weight: 300;
+  font-style: normal;
+    font-size: 6.8em;
+    margin-top: 77px;
+    letter-spacing: -7px;
+}
+#titolo p{
+    margin-block: 40px;
+    font-size: 1.4em;
+    font-weight: 300;
+}
+#titolo p:last-of-type {
+    width: 200px;
+    margin-left: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+

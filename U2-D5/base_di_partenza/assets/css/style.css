@@ -40,6 +40,7 @@ header{
 
 #logo{
     margin-top: 15px;
+    cursor: pointer;
     
 }
 nav{
@@ -58,6 +59,7 @@ nav{
 #navigationBar ul li{
     font-size: 0.9em;
     font-weight: 300;
+    cursor: pointer;
 }
 
 #graficM{
@@ -74,6 +76,7 @@ nav{
     margin-top: -10px;
     margin-left: -14px;
     border-radius: 30px;
+    cursor: pointer;
 }
 #titolo{
     max-width: 1120px;
@@ -170,6 +173,7 @@ article{
 
 .Article{
     width: 334px;
+    cursor: pointer;
 }
 main{
     border-top: solid 1px grey;
@@ -204,6 +208,9 @@ main{
 .text h3{
     margin-bottom: 10px;
 }
+.singoloArticolo{
+    cursor: pointer;
+}
 .sottotitolo{
     margin-top: 10px;
     font-size: 0.8em;
@@ -220,7 +227,7 @@ main{
     padding-bottom: 40px;
 }
 .asideSection h5{
-    margin-bottom: 0px;
+    margin-bottom: 15px;
     font-weight: 500;
 }
 .buttons{
@@ -228,7 +235,9 @@ main{
     padding: 7px;
     border: solid 1px lightgray;
     margin-bottom: 5px;
+    margin-top: 5px;
     color: grey;
+    cursor: pointer;
 }
 .footer{
     margin-left: 20%;
@@ -242,6 +251,10 @@ main{
     flex-wrap: wrap;
     color: gray;
     font-size: 0.5;
+    
+}
+.footer ul li{
+    cursor: pointer;
 }
 
 

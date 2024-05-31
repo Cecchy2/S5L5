@@ -5586,7 +5586,7 @@
           const navbar = document.getElementById("navFix");
           const lastScrollTop = 0;
       
-          window.addEventListener("scroll", function(event) {
+          window.addEventListener("scroll", function(event) { console.log(event)
             const scrollTop = window.pageYOffset 
       
             if (scrollTop > lastScrollTop) {

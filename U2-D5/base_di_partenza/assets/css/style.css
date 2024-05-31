@@ -23,6 +23,15 @@ header{
     border-bottom: solid 1px grey;
     
 }
+#navFix{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(255, 192, 23);
+  border-bottom: solid 1px grey;
+}
 
 #logo{
     margin-top: 15px;
@@ -40,6 +49,18 @@ nav{
     margin-top: 21px;
     list-style: none;
     
+}
+#navigationBar ul li{
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+#graficM{
+    height: 400px;
+    
+    position: absolute;
+    right: 0;
+    top: 82px;
 }
 .selected{
     background-color: rgb(24, 25, 25);
@@ -138,7 +159,7 @@ article{
 }
 .TitleContainer{
     margin-left: 35px;
-    margin-block: 14px;
+     
 }
     
 
@@ -165,7 +186,7 @@ main{
     width: 720px;
     display: flex;
     flex-direction: row-reverse;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
 }
 .littlePhoto{
     border-radius: 50%;

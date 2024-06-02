@@ -281,11 +281,37 @@ main{
     .footer ul{
     margin-left: -19vw;
     }
-    #graficM svg{
-        z-index: -2;
+    .contenitoreArticoli{
+        width: 100vw;
+        justify-content: flex-end;
+    }
+    .singoloArticolo{
+        margin-right: auto;
+    }
+    .imgArticolo{
+        margin-left: auto;
+    }
+    .bookmark{
+        margin: 0;
+    }
+}
+    
+
+
+@media screen and (max-width: 900px){
+    #graficM {
+       right: -145px;
 
     }
-
 }
+@media screen and (max-width: 777px){
+    #graficM {
+        right: -270px;
+ 
+     }
+ }
+
+
+
 
 

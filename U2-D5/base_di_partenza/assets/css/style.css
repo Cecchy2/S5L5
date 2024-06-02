@@ -268,5 +268,24 @@ main{
     cursor: pointer;
 }
 
+@media screen and (max-width: 1199px){
+    .contenitoreMain{
+        flex-direction: column-reverse;
+    }
+    .asideContainer{
+        margin: 0;
+    }
+    .contenitoreMain section {margin-top: 20px;
+    
+    }
+    .footer ul{
+    margin-left: -19vw;
+    }
+    #graficM svg{
+        z-index: -2;
+
+    }
+
+}
 
 

@@ -303,10 +303,31 @@ main{
        right: -145px;
 
     }
+    #titolo{
+        margin-inline: 5%;
+        margin-inline: 5%;
+    }
+    article{
+        margin-inline: 5%;
+
+    }
+    .contenitoreMain{
+        margin-inline: 5%;
+
+    }
+    .trending h5{
+        margin-inline: 5%;
+
+    }
+    #logo{
+        margin-inline: 5%;
+
+    }
+    
 }
 @media screen and (max-width: 777px){
     #graficM {
-        right: -270px;
+        display: none;
  
      }
  }
